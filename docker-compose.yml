@@ -7,7 +7,4 @@ services:
       dockerfile: Dockerfile
     ports:
       - "3001:3001"
-    environment:
-      - NODE_ENV=production
-      # Agrega aquí tus variables de entorno necesarias
     restart: always
