@@ -3,7 +3,7 @@ services:
     container_name: cajoncito-backend
     build:
       # Aquí sucede la magia: Docker clona el repo por ti
-      context: https://github.com/tu-usuario/cajoncito-backend.git#main
+      context: https://github.com/carlosgnx/cajoncito-backend.git#main
       dockerfile: Dockerfile
     ports:
       - "3001:3001"
