@@ -33,7 +33,7 @@ async function createApp() {
     // app.use('/core/vehicles', verifyToken, routes.vehicleRoutes);
     // app.use('/core/clients', verifyToken, routes.clientRoutes);
     app.use('/check-assistance', routes.checkAssistanceRoutes);
-    app.use('/users', routes.userRoutes);
+    app.use('/user', routes.userRoutes);
 
     // Manejador global de errores
     app.use((error, req, res, next) => {
